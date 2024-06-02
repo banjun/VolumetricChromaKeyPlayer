@@ -7,6 +7,7 @@ final class PlayerLayerView: UIView {
 
     init(player: AVPlayer) {
         super.init(frame: .zero)
+        playerLayer.videoGravity = .resizeAspect
         playerLayer.player = player // make VideoComposition CIFilter work
         playerLayer.pixelBufferAttributes = [kCVPixelBufferPixelFormatTypeKey as String: kCVPixelFormatType_32BGRA] // make background transparent
     }

@@ -8,7 +8,7 @@ struct ContentView: View {
     let minVolumetricLength: CGFloat = 300 // lower limit seems to be around 300pt
     let width: CGFloat
     let idolHeight: CGFloat = 141
-    let heightMargin: CGFloat = 10
+    let heightMargin: CGFloat = 8
     let depth:  Float = 0
     @Environment(\.physicalMetrics) private var physicalMetrics
     @State private var isWindowHandleVisible: Visibility = .visible
@@ -22,13 +22,12 @@ struct ContentView: View {
                 $0.add(ModelEntity(mesh: .generateBox(size: physicalMetrics.convert(.init(minVolumetricLength), to: .meters) - depth), materials: [UnlitMaterial(color: .clear)]))
             }
 
-            PlayerView().environment(playerController)
+            PlayerView()
                 .frame(width: physicalMetrics.convert(width, from: .centimeters),
                        height: physicalMetrics.convert(idolHeight + heightMargin, from: .centimeters))
-
             Toolbar(isWindowHandleVisible: isWindowHandleVisible)
-                .environment(playerController)
         }
+        .environment(playerController)
         .onAppear {
             playerController.setVideo(url: videoURL)
         }

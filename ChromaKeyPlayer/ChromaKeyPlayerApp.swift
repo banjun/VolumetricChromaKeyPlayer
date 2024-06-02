@@ -4,13 +4,13 @@ import SwiftUI
 struct ChromaKeyPlayerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(width: 100)
+            ContentView(width: 149)
         }
         .windowStyle(.volumetric)
-        .defaultSize(width: 100, height: 300, depth: 300, in: .centimeters)
+        .defaultSize(width: 149, height: 300, depth: 300, in: .centimeters)
 
         WindowGroup {
-            ContentView(width: 100)
+            ContentView(width: 149)
         }
         .windowStyle(.automatic)
     }
