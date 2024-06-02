@@ -13,6 +13,10 @@
 		EA08D23A2C0C6BE5000FCD05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA08D2392C0C6BE5000FCD05 /* Preview Assets.xcassets */; };
 		EA08D2422C0C6E3F000FCD05 /* RPReplay_Final1717252226.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EA08D2412C0C6E3F000FCD05 /* RPReplay_Final1717252226.mp4 */; };
 		EA850C3E2C0C819800768E3A /* ChromaKeyFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA850C3D2C0C819800768E3A /* ChromaKeyFilter.swift */; };
+		EA850C402C0CC89E00768E3A /* PlayerLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA850C3F2C0CC89E00768E3A /* PlayerLayerView.swift */; };
+		EA850C422C0CC8BB00768E3A /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA850C412C0CC8BB00768E3A /* PlayerView.swift */; };
+		EA850C442C0CC90100768E3A /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA850C432C0CC90100768E3A /* PlayerController.swift */; };
+		EA850C462C0CC9A200768E3A /* Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA850C452C0CC9A200768E3A /* Toolbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		EA08D23B2C0C6BE5000FCD05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA08D2412C0C6E3F000FCD05 /* RPReplay_Final1717252226.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = RPReplay_Final1717252226.mp4; sourceTree = "<group>"; };
 		EA850C3D2C0C819800768E3A /* ChromaKeyFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaKeyFilter.swift; sourceTree = "<group>"; };
+		EA850C3F2C0CC89E00768E3A /* PlayerLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerLayerView.swift; sourceTree = "<group>"; };
+		EA850C412C0CC8BB00768E3A /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		EA850C432C0CC90100768E3A /* PlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
+		EA850C452C0CC9A200768E3A /* Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,11 @@
 			children = (
 				EA08D22E2C0C6BE4000FCD05 /* ChromaKeyPlayerApp.swift */,
 				EA08D2302C0C6BE4000FCD05 /* ContentView.swift */,
+				EA850C432C0CC90100768E3A /* PlayerController.swift */,
+				EA850C412C0CC8BB00768E3A /* PlayerView.swift */,
+				EA850C3F2C0CC89E00768E3A /* PlayerLayerView.swift */,
 				EA850C3D2C0C819800768E3A /* ChromaKeyFilter.swift */,
+				EA850C452C0CC9A200768E3A /* Toolbar.swift */,
 				EA08D2362C0C6BE5000FCD05 /* Assets.xcassets */,
 				EA08D2412C0C6E3F000FCD05 /* RPReplay_Final1717252226.mp4 */,
 				EA08D23B2C0C6BE5000FCD05 /* Info.plist */,
@@ -148,8 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA850C462C0CC9A200768E3A /* Toolbar.swift in Sources */,
 				EA08D2312C0C6BE4000FCD05 /* ContentView.swift in Sources */,
+				EA850C402C0CC89E00768E3A /* PlayerLayerView.swift in Sources */,
+				EA850C442C0CC90100768E3A /* PlayerController.swift in Sources */,
 				EA850C3E2C0C819800768E3A /* ChromaKeyFilter.swift in Sources */,
+				EA850C422C0CC8BB00768E3A /* PlayerView.swift in Sources */,
 				EA08D22F2C0C6BE4000FCD05 /* ChromaKeyPlayerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
