@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA08D22F2C0C6BE4000FCD05 /* ChromaKeyPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA08D22E2C0C6BE4000FCD05 /* ChromaKeyPlayerApp.swift */; };
+		EA08D2312C0C6BE4000FCD05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA08D2302C0C6BE4000FCD05 /* ContentView.swift */; };
+		EA08D2372C0C6BE5000FCD05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA08D2362C0C6BE5000FCD05 /* Assets.xcassets */; };
+		EA08D23A2C0C6BE5000FCD05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA08D2392C0C6BE5000FCD05 /* Preview Assets.xcassets */; };
+		EA08D2422C0C6E3F000FCD05 /* RPReplay_Final1717252226.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EA08D2412C0C6E3F000FCD05 /* RPReplay_Final1717252226.mp4 */; };
+		EA850C3E2C0C819800768E3A /* ChromaKeyFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA850C3D2C0C819800768E3A /* ChromaKeyFilter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA08D2272C0C6BE4000FCD05 /* ChromaKeyPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChromaKeyPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA08D22E2C0C6BE4000FCD05 /* ChromaKeyPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromaKeyPlayerApp.swift; sourceTree = "<group>"; };
+		EA08D2302C0C6BE4000FCD05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA08D2362C0C6BE5000FCD05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA08D2392C0C6BE5000FCD05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA08D23B2C0C6BE5000FCD05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA08D2412C0C6E3F000FCD05 /* RPReplay_Final1717252226.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = RPReplay_Final1717252226.mp4; sourceTree = "<group>"; };
+		EA850C3D2C0C819800768E3A /* ChromaKeyFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaKeyFilter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA08D2242C0C6BE4000FCD05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA08D21E2C0C6BE4000FCD05 = {
+			isa = PBXGroup;
+			children = (
+				EA08D2292C0C6BE4000FCD05 /* ChromaKeyPlayer */,
+				EA08D2282C0C6BE4000FCD05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA08D2282C0C6BE4000FCD05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA08D2272C0C6BE4000FCD05 /* ChromaKeyPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA08D2292C0C6BE4000FCD05 /* ChromaKeyPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				EA08D22E2C0C6BE4000FCD05 /* ChromaKeyPlayerApp.swift */,
+				EA08D2302C0C6BE4000FCD05 /* ContentView.swift */,
+				EA850C3D2C0C819800768E3A /* ChromaKeyFilter.swift */,
+				EA08D2362C0C6BE5000FCD05 /* Assets.xcassets */,
+				EA08D2412C0C6E3F000FCD05 /* RPReplay_Final1717252226.mp4 */,
+				EA08D23B2C0C6BE5000FCD05 /* Info.plist */,
+				EA08D2382C0C6BE5000FCD05 /* Preview Content */,
+			);
+			path = ChromaKeyPlayer;
+			sourceTree = "<group>";
+		};
+		EA08D2382C0C6BE5000FCD05 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA08D2392C0C6BE5000FCD05 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA08D2262C0C6BE4000FCD05 /* ChromaKeyPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA08D23E2C0C6BE5000FCD05 /* Build configuration list for PBXNativeTarget "ChromaKeyPlayer" */;
+			buildPhases = (
+				EA08D2232C0C6BE4000FCD05 /* Sources */,
+				EA08D2242C0C6BE4000FCD05 /* Frameworks */,
+				EA08D2252C0C6BE4000FCD05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChromaKeyPlayer;
+			packageProductDependencies = (
+			);
+			productName = ChromaKeyPlayer;
+			productReference = EA08D2272C0C6BE4000FCD05 /* ChromaKeyPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA08D21F2C0C6BE4000FCD05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EA08D2262C0C6BE4000FCD05 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = EA08D2222C0C6BE4000FCD05 /* Build configuration list for PBXProject "ChromaKeyPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA08D21E2C0C6BE4000FCD05;
+			productRefGroup = EA08D2282C0C6BE4000FCD05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA08D2262C0C6BE4000FCD05 /* ChromaKeyPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA08D2252C0C6BE4000FCD05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA08D2372C0C6BE5000FCD05 /* Assets.xcassets in Resources */,
+				EA08D23A2C0C6BE5000FCD05 /* Preview Assets.xcassets in Resources */,
+				EA08D2422C0C6E3F000FCD05 /* RPReplay_Final1717252226.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA08D2232C0C6BE4000FCD05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA08D2312C0C6BE4000FCD05 /* ContentView.swift in Sources */,
+				EA850C3E2C0C819800768E3A /* ChromaKeyFilter.swift in Sources */,
+				EA08D22F2C0C6BE4000FCD05 /* ChromaKeyPlayerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA08D23C2C0C6BE5000FCD05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		EA08D23D2C0C6BE5000FCD05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+		EA08D23F2C0C6BE5000FCD05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChromaKeyPlayer/Preview Content\"";
+				DEVELOPMENT_TEAM = FPZK4WRGW7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.banjun.exp.ChromaKeyPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		EA08D2402C0C6BE5000FCD05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChromaKeyPlayer/Preview Content\"";
+				DEVELOPMENT_TEAM = FPZK4WRGW7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.banjun.exp.ChromaKeyPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA08D2222C0C6BE4000FCD05 /* Build configuration list for PBXProject "ChromaKeyPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA08D23C2C0C6BE5000FCD05 /* Debug */,
+				EA08D23D2C0C6BE5000FCD05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA08D23E2C0C6BE5000FCD05 /* Build configuration list for PBXNativeTarget "ChromaKeyPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA08D23F2C0C6BE5000FCD05 /* Debug */,
+				EA08D2402C0C6BE5000FCD05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA08D21F2C0C6BE4000FCD05 /* Project object */;
+}
